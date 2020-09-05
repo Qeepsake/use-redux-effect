@@ -1,0 +1,24 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "lukebrandonfarrell",
+      "name": "Luke Brandon Farrell",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/18139277?v=4",
+      "profile": "http://www.lukebrandonfarrell.com",
+      "contributions": [
+        "projectManagement"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "use-redux-effect",
+  "projectOwner": "aspect-apps",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "skipCi": true
+}
