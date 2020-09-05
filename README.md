@@ -11,7 +11,7 @@ npm install --save use-redux-effect
 ```
 
 ## Usage
-
+First, add the hook and set it up to execute the desired logic
 ```jsx
 import {Text} from 'react-native'
 import { useReduxEffect } from 'use-redux-effect'
@@ -26,6 +26,17 @@ const ExampleClass = (props) => {
     return <Text>This is an example Component</Text>
 
 }
+```
+Next, add the reducer that recieves the action to your Redux store :
+
+```jsx
+import {actionReducer} from 'use-redux-effect'
+
+const reducers = {
+  action : actionReducer
+}
+
+// Proceed to add into the Redux store of your application
 ```
 
 ## License
