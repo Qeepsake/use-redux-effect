@@ -16,7 +16,7 @@ npm install --save use-redux-effect
 import {Text} from 'react-native'
 import { useReduxEffect } from 'use-redux-effect'
 
-const ExampleClass = () => {
+const ExampleClass = (props) => {
 
     useReduxEffect((exampleEffect) => {
       // Execute code
