@@ -4,7 +4,10 @@
   "description": "A powerful React hook that subscribes to Redux store events",
   "author": "lukebrandonfarrell",
   "license": "MIT",
-  "repository": "aspect-apps/use-redux-effect",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aspect-apps/use-redux-effect.git"
+  },
   "main": "dist/index.js",
   "module": "dist/index.modern.js",
   "source": "src/index.js",
@@ -53,5 +56,17 @@
   "dependencies": {
     "lodash": "^4.17.20",
     "react-redux": "^7.2.1"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/aspect-apps/use-redux-effect/issues"
+  },
+  "homepage": "https://github.com/aspect-apps/use-redux-effect#readme",
+  "directories": {
+    "example": "example"
+  },
+  "keywords": [
+    "redux",
+    "hooks",
+    "useEffect"
+  ]
 }
