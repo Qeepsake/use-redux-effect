@@ -13,15 +13,18 @@ npm install --save use-redux-effect
 ## Usage
 
 ```jsx
-import React, { Component } from 'react'
+import {Text} from 'react-native'
+import { useReduxEffect } from 'use-redux-effect'
 
-import MyComponent from 'use-redux-effect'
-import 'use-redux-effect/dist/index.css'
+const ExampleClass = () => {
 
-class Example extends Component {
-  render() {
-    return <MyComponent />
-  }
+    useReduxEffect((exampleEffect) => {
+      // Execute code
+    }, eventType);
+
+
+    return <Text>This is an example Component</Text>
+
 }
 ```
 
