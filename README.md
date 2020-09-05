@@ -20,7 +20,7 @@ const ExampleClass = () => {
 
     useReduxEffect((exampleEffect) => {
       // Execute code
-    }, eventType);
+    }, eventType, [props]);
 
 
     return <Text>This is an example Component</Text>
