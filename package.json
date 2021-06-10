@@ -8,9 +8,8 @@
     "type": "git",
     "url": "git+https://github.com/aspect-apps/use-redux-effect.git"
   },
-  "main": "dist/index.js",
-  "module": "dist/index.modern.js",
-  "source": "src/index.js",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
   "engines": {
     "node": ">=10"
   },
