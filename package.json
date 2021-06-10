@@ -64,9 +64,6 @@
     "react-scripts": "^3.4.1",
     "semantic-release": "^17.4.3"
   },
-  "files": [
-    "dist"
-  ],
   "dependencies": {
     "lodash": "^4.17.20",
     "react-redux": "^7.2.1",
