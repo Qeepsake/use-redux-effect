@@ -17,7 +17,7 @@ import { ReduxEffect } from './redux-effect'
  */
 export function useReduxEffect(
   effect: ReduxEffect,
-  type: string,
+  type: string[],
   deps: DependencyList = [],
 ): void {
   const currentValue = useRef(null)
