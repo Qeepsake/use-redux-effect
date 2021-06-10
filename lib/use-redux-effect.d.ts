@@ -11,4 +11,4 @@ import { ReduxEffect } from './redux-effect';
  * @param type
  * @param deps
  */
-export declare function useReduxEffect(effect: ReduxEffect, type: string[], deps?: DependencyList): void;
+export declare function useReduxEffect(effect: ReduxEffect, type: string | string[], deps?: DependencyList): void;
